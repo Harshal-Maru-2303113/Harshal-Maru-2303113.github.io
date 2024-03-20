@@ -1,10 +1,10 @@
 
 var web_slider = document.getElementById("web_slider");
 var web_desc = document.getElementById("web_description");
-var info = document.getElementById("info_grid");
+var sh_ht = document.getElementById("fade");
 
-function fadeOutOnScroll(element){
-    if(!element){
+function fadeOutOnScroll(element) {
+    if (!element) {
         return;
     }
     var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
@@ -22,10 +22,10 @@ function fadeOutOnScroll(element){
     }
 }
 
-
 function scrollHandler() {
     fadeOutOnScroll(web_slider);
     fadeOutOnScroll(web_desc);
+    fadeOutOnScroll(sh_ht);
 }
 
-window.addEventListener('scroll',scrollHandler);
+window.addEventListener('scroll', scrollHandler);
