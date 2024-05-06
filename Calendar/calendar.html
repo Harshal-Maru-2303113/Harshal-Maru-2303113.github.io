@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar</title>
+  <link rel="stylesheet" href="calendar.css" />
+  <link rel="stylesheet" href="../Home_page/CSS/transition.css">
+</head>
+
+<body>
+
+
+  <!-- /*------------------------------------------------------------------------------------------------Transition--------------------------------------------------------------------------------------------------------*/-->
+
+
+  <div class="transition transition_3 is-active"></div>
+
+  <!-- /*------------------------------------------------------------------------------------------------Transition--------------------------------------------------------------------------------------------------------*/-->
+
+
+  <div class="main_body">
+    <div class="main_web_body">
+      <!-- /*----------------------------------------------------------Navbar------------------------------------------------------------------*/-->
+
+
+      <div id="nav_bar" class="navigation_bar">
+        <div class="navigation_items">
+          <a href="../Home_page/index.html">
+            Carbonix
+          </a>
+        </div>
+        <div class="navigation_items">
+          <a href="../Carbon_Calculator/calculator.html#home-hero">
+            Calculator
+          </a>
+        </div>
+        <div class="navigation_items" style="border-bottom: 2px solid white;">
+          <a href="../Calendar/calendar.html" style="font-weight: 600;color: white;">
+            Calender
+          </a>
+        </div>
+        <div class="navigation_items">
+          <a href="../Doomsday Clock/Doomsday Clock.html">
+            Doomsday Clock
+          </a>
+        </div>
+        <div class="navigation_items">
+          <a href="../quiz page/quiz.html">
+            Quiz
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- /*----------------------------------------------------------Calendar_Division-(starts)-----------------------------------------------------------------*/-->
+  <h1>Calendar</h1>
+  <div class="calendar">
+    <header>
+      <h3></h3> <!-- Updates through javascript -->
+      <nav> <!-- Navs to change months -->
+        <button id="prev"></button>
+        <button id="next"></button>
+      </nav>
+    </header>
+    <section>
+      <ul class="days">
+        <li>Sun</li>
+        <li>Mon</li>
+        <li>Tue</li>
+        <li>Wed</li>
+        <li>Thu</li>
+        <li>Fri</li>
+        <li>Sat</li>
+      </ul>
+      <ul class="dates"></ul> <!-- List elements updates through javascript -->
+    </section>
+  </div>
+<!-- /*----------------------------------------------------------Calendar_Division-(ends)-----------------------------------------------------------------*/-->
+
+
+  <!-- /*----------------------------------------------------------Content_Division-(starts)-----------------------------------------------------------------*/-->
+
+  <div class="main_extra_info">
+    <div class="content">
+      <h2>IMPORTANT DATES</h2>
+      <ul class="info"></ul> <!-- Info updates through javascript -->
+    </div>
+    <!-- /*--------------------------Climate_Content-(starts)---------------------------------*/ -->
+    <div class="climate">
+      <h2>CLIMATE DATES</h2>
+      <ul class="climateInfo">
+        <li>1.Earth Hour : On the last Saturday of March at 8:30 PM (local time), people worldwide turn off
+          non-essential lights for one hour to promote energy conservation and climate action </li>
+        <li>2.World Water Day : Observed on March 22, this day highlights the importance of freshwater resources and
+          encourages water conservation and sustainable management.</li>
+        <li>3.Earth Day : Celebrated on April 22, Earth Day focuses on environmental protection, conservation, and
+          global awareness.</li>
+        <li>4.World Environment Day : Held on June 5, this day emphasizes environmental action, biodiversity, and
+          ecosystem preservation.</li>
+        <li>5.World Oceans Day : Recognized on June 8, it promotes ocean health, marine conservation, and sustainable
+          practices.</li>
+        <li>6.International Day for Biological Diversity : May 22 aims to raise awareness about biodiversity loss and
+          the need for conservation.</li>
+        <li>7.World Wildlife Day : Observed on March 3, it celebrates the diversity of wildlife and raises awareness
+          about endangered species.</li>
+        <li>8.International Day of Forests : March 21 focuses on forest conservation, reforestation, and sustainable
+          forest management.</li>
+        <li>9.World Wetlands Day : February 2 highlights wetland ecosystems and their importance for biodiversity and
+          climate regulation.</li>
+        <li>10.Global Recycling Day : March 18 encourages recycling practices and waste reduction.</li>
+      </ul>
+    </div>
+    <!-- /*--------------------------Climate_Content-(ends)---------------------------------*/ -->
+
+    <!-- /*--------------------------Extra_Info-(starts)---------------------------------*/ -->
+    <div class="main_info_grid">
+      <div>
+        <div class="main_grid_item_1">
+          <h3 class="main_team">Team Members</h3>
+          <ul class="team_member">
+            <li>
+              <a href>Atharva Keny</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/harshal-maru-rakeshbhai">Harshal Maru</a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/kapil-handeriya-760499230">Kapil Handeriya</a>
+            </li>
+
+            <li>
+              <a href> Vinay Reddy</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jithendra-kumar-2800b42a0">Jitendra Kumar</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main_grid_item_2">
+
+        </div>
+      </div>
+      <div class="main_grid_item_3">
+        <a href="../Carbon_Calculator/calculator.html#home-hero">
+          Calculator
+        </a>
+        <a href="../Calendar/calendar.html">
+          Calender
+        </a>
+        <a href="../Doomsday Clock/Doomsday Clock.html">
+          Doomsday Clock
+        </a>
+        <a href="../quiz page/quiz.html">
+          Quiz
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- /*--------------------------Extra_Info-(ends)---------------------------------*/ -->
+
+  <!-- /*----------------------------------------------------------Content_Division-(starts)-----------------------------------------------------------------*/-->
+
+  <script src="calendar.js" defer></script> 
+  <script defer src="../Home_page/Javascript/webpage_transition.js"></script>
+</body>
+
+</html>
